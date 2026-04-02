@@ -795,12 +795,12 @@ members.forEach((m, idx) => {
 <div class="content">
   <div class="sec">
     <div class="sec-label">A-1</div>
-    <div class="sec-title">🏷️ 呼ばれたい名前</div>
+    <div class="sec-title">呼ばれたい名前</div>
     <div class="sec-body">${m.called_full}</div>
   </div>
   <div class="sec">
     <div class="sec-label">A-5</div>
-    <div class="sec-title">💬 コミュニケーションスタイル</div>
+    <div class="sec-title">コミュニケーションスタイル</div>
     <div class="type-box">
       <div class="type-name">${m.type}</div>
       <div class="sec-body">${m.type_desc}</div>
@@ -808,12 +808,12 @@ members.forEach((m, idx) => {
   </div>
   <div class="sec">
     <div class="sec-label">A-6</div>
-    <div class="sec-title">✨ 持ち味（3つ）</div>
+    <div class="sec-title">持ち味（3つ）</div>
     <ul class="strengths">${strengthsHTML}</ul>
   </div>
   <div class="sec">
     <div class="sec-label">B-1 / B-2</div>
-    <div class="sec-title">🎯 趣味・好きなもの</div>
+    <div class="sec-title">趣味・好きなもの</div>
     <div class="sec-body">
       <p style="margin-bottom:8px"><strong>趣味・マイブーム：</strong>${m.hobby}</p>
       <p><strong>好きな食べ物・飲み物：</strong>${m.food}</p>
@@ -821,24 +821,24 @@ members.forEach((m, idx) => {
   </div>
   <div class="sec">
     <div class="sec-label">C-1</div>
-    <div class="sec-title">🔥 やる気がでるとき</div>
+    <div class="sec-title">やる気がでるとき</div>
     <div class="sec-body">${m.motivation}</div>
   </div>
   <div class="sec">
     <div class="sec-label">D-3</div>
-    <div class="sec-title">💆 ストレス発散方法</div>
+    <div class="sec-title">ストレス発散方法</div>
     <div class="sec-body">${m.stress}</div>
   </div>
   <div class="sec">
     <div class="sec-label">大切にしている価値観</div>
-    <div class="sec-title">💡 仕事上の価値観</div>
+    <div class="sec-title">仕事上の価値観</div>
     <div class="gold-highlight">${m.value}</div>
   </div>
   <div class="sec">
     <div class="sec-label">サポート情報</div>
-    <div class="sec-title">🤝 サポートしてもらえると助かること</div>
+    <div class="sec-title">サポートしてもらえると助かること</div>
     <div class="sec-body" style="margin-bottom:14px">${m.support}</div>
-    <div class="sec-title" style="margin-top:12px">⭐ 任せてほしいこと</div>
+    <div class="sec-title" style="margin-top:12px">任せてほしいこと</div>
     <div class="sec-body">${m.entrust}</div>
   </div>
 </div>
